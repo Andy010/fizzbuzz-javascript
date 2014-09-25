@@ -38,4 +38,20 @@ describe('Fizzbuzz knows', function(){
 
 	}); // Close describe
 
+	describe('motorhead returns', function(){
+
+		it('"Fizz" when divisible by the number 3', function(){
+			expect(fizzbuzz.motorhead(3)).toEqual("Fizz");
+		});
+
+		it('"Buzz" when divisible by the number 5', function)({
+			expect(fizzbuzz.motorhead(5)).toEqual("Buzz");
+		});
+
+		it('"FizzBuzz" when divisible by the number 15', function)({
+			expect(fizzbuzz.motorhead(15)).toEqual("FizzBuzz");
+		});
+
+	}); //close describe
+
 });
