@@ -2,7 +2,7 @@ describe('Fizzbuzz knows', function(){
 
 	var fizzbuzz;
 
-	beforeEach(funtion {
+	beforeEach(function() {
 			fizzbuzz = new Fizzbuzz();
 	});
 
@@ -50,6 +50,10 @@ describe('Fizzbuzz knows', function(){
 
 		it('"FizzBuzz" when divisible by the number 15', function)({
 			expect(fizzbuzz.motorhead(15)).toEqual("FizzBuzz");
+		});
+
+		it('returns the number given when it is not divisible by 3, 5 or 15', function)({
+			expect(fizzbuzz.motorhead(1));
 		});
 
 	}); //close describe
